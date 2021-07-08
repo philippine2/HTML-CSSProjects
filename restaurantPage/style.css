@@ -1,0 +1,40 @@
+body{
+    background-image: url(images/restaurant-S10.jpg);
+}
+.navigation{
+    background-color:black;
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    
+}
+.navigation a {
+    float: left;
+    color:blue;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navigation a:hover{
+    background-color:whitesmoke;
+    color:black;
+
+}
+.navigation a .active{
+    background-color: #04AA6D;
+    color: white;
+}
+.mainBox{
+    color:whitesmoke;
+    font-family:Arial, Helvetica, sans-serif;
+   text-align: center;
+   border: 1rem solid;
+   font-size: 50px;
+ 
+}
+span{
+    color:red;
+    font-size: 80px;
+}
